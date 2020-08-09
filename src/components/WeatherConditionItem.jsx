@@ -36,9 +36,7 @@ const WeatherConditionItem = (props) => {
               {Math.round(data.min_temp)}
             </Typography>
           </Typography>
-        </Grid>
-        <Grid item>
-        <Typography variant="body2" color="textSecondary">
+          <Typography variant="body2" color="textSecondary">
             Max:{' '}
             <Typography variant="button" color="textPrimary">
               {Math.round(data.max_temp)}

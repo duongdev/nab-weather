@@ -4,26 +4,15 @@ import { TextField } from '@material-ui/core'
 import { useQuery } from 'react-query'
 import parse from 'autosuggest-highlight/parse'
 import match from 'autosuggest-highlight/match'
-import client from 'helpers/api-client'
-
-const fetchLocations = async (searchText = '') => {
-  if (!searchText) {
-    return []
-  }
-  const { data } = await client.get(`/location/search/`, {
-    params: { query: searchText },
-  })
-
-  return data
-}
+import { fetchLocations } from 'helpers/api-client'
 
 const LocationSearchBox = (props) => {
   const [inputValue, setInputValue] = useState('')
   const [value, setValue] = useState(null)
   const [options, setOptions] = useState([])
   const { data, isLoading, error, isError } = useQuery(
-    ['locations', inputValue],
-    () => fetchLocations(inputValue),
+    ['locations', inputValue.trim()],
+    () => fetchLocations(inputValue.trim()),
     {
       // initialData: [],
       enabled: inputValue,
@@ -76,7 +65,7 @@ const LocationSearchBox = (props) => {
         const parts = parse(option.title, matches)
 
         return (
-          <div>
+          <div data-testid={`option-${option.woeid}`}>
             {parts.map((part, index) => (
               <span
                 key={index}

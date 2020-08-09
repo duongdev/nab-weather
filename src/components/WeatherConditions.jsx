@@ -1,12 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  Typography,
-  Box,
-  CircularProgress,
-  makeStyles,
-  Grid,
-} from '@material-ui/core'
+import { Typography, Box, CircularProgress, Grid } from '@material-ui/core'
 import { useQuery } from 'react-query'
 import client from 'helpers/api-client'
 import WeatherConditionItem from './WeatherConditionItem'
@@ -18,9 +12,7 @@ const fetchLocationWeather = async (locationId) => {
 }
 
 const WeatherConditions = (props) => {
-  const classes = useStyles(props)
   const { locationId } = props
-  // const locationId = 2424766
   const { data, isLoading } = useQuery(
     ['location', locationId],
     () => fetchLocationWeather(locationId),
@@ -57,19 +49,13 @@ const WeatherConditions = (props) => {
         <Typography variant="h5">{data.title}</Typography>
       </Grid>
       {data.consolidated_weather.slice(0, 5).map((item) => (
-        <Grid item xs key={item.id}>
+        <Grid item xs={12} sm key={item.id}>
           <WeatherConditionItem data={item} />
         </Grid>
       ))}
     </Grid>
   )
 }
-
-const useStyles = makeStyles(() => ({
-  gridList: {
-    height: 150,
-  },
-}))
 
 WeatherConditions.propTypes = {
   locationId: PropTypes.number,

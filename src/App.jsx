@@ -12,7 +12,8 @@ import { ReactQueryCacheProvider } from 'react-query'
 import WeatherConditions from 'components/WeatherConditions'
 
 function App() {
-  const [location, setLocation] = useState(null)
+  // const [location, setLocation] = useState(null)
+  const [location, setLocation] = useState({ woeid: 1252431 })
   return (
     <ReactQueryCacheProvider>
       <ThemeProvider theme={theme}>
