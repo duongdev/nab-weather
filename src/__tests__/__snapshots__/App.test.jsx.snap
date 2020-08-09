@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+"[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"MuiContainer-root MuiContainer-maxWidthMd\\"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m\\"MuiBox-root MuiBox-root-1\\"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap\\"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33maria-expanded[39m=[32m\\"false\\"[39m
+              [33mclass[39m=[32m\\"MuiAutocomplete-root Mui-focused MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon\\"[39m
+              [33mrole[39m=[32m\\"combobox\\"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m\\"MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth\\"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m\\"MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth Mui-focused Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd\\"[39m
+                [36m>[39m
+                  [36m<input[39m
+                    [33maria-autocomplete[39m=[32m\\"both\\"[39m
+                    [33maria-invalid[39m=[32m\\"false\\"[39m
+                    [33mautocapitalize[39m=[32m\\"none\\"[39m
+                    [33mautocomplete[39m=[32m\\"off\\"[39m
+                    [33mclass[39m=[32m\\"MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd\\"[39m
+                    [33mid[39m=[32m\\"location-search\\"[39m
+                    [33mplaceholder[39m=[32m\\"Search a location...\\"[39m
+                    [33mspellcheck[39m=[32m\\"false\\"[39m
+                    [33mtype[39m=[32m\\"text\\"[39m
+                    [33mvalue[39m=[32m\\"\\"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m\\"MuiAutocomplete-endAdornment\\"[39m
+                  [36m>[39m
+                    [36m<button[39m
+                      [33maria-label[39m=[32m\\"Clear\\"[39m
+                      [33mclass[39m=[32m\\"MuiButtonBase-root MuiIconButton-root MuiAutocomplete-clearIndicator\\"[39m
+                      [33mtabindex[39m=[32m\\"-1\\"[39m
+                      [33mtitle[39m=[32m\\"Clear\\"[39m
+                      [33mtype[39m=[32m\\"button\\"[39m
+                    [36m>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m\\"MuiIconButton-label\\"[39m
+                      [36m>[39m
+                        [36m<svg[39m
+                          [33maria-hidden[39m=[32m\\"true\\"[39m
+                          [33mclass[39m=[32m\\"MuiSvgIcon-root MuiSvgIcon-fontSizeSmall\\"[39m
+                          [33mfocusable[39m=[32m\\"false\\"[39m
+                          [33mviewBox[39m=[32m\\"0 0 24 24\\"[39m
+                        [36m>[39m
+                          [36m<path[39m
+                            [33md[39m=[32m\\"M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z\\"[39m
+                          [36m/>[39m
+                        [36m</svg>[39m
+                      [36m</span>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m\\"MuiTouchRipple-root\\"[39m
+                      [36m/>[39m
+                    [36m</button>[39m
+                    [36m<button[39m
+                      [33maria-label[39m=[32m\\"Open\\"[39m
+                      [33mclass[39m=[32m\\"MuiButtonBase-root MuiIconButton-root MuiAutocomplete-popupIndicator\\"[39m
+                      [33mtabindex[39m=[32m\\"-1\\"[39m
+                      [33mtitle[39m=[32m\\"Open\\"[39m
+                      [33mtype[39m=[32m\\"button\\"[39m
+                    [36m>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m\\"MuiIconButton-label\\"[39m
+                      [36m>[39m
+                        [36m<svg[39m
+                          [33maria-hidden[39m=[32m\\"true\\"[39m
+                          [33mclass[39m=[32m\\"MuiSvgIcon-root\\"[39m
+                          [33mfocusable[39m=[32m\\"false\\"[39m
+                          [33mviewBox[39m=[32m\\"0 0 24 24\\"[39m
+                        [36m>[39m
+                          [36m<path[39m
+                            [33md[39m=[32m\\"M7 10l5 5 5-5z\\"[39m
+                          [36m/>[39m
+                        [36m</svg>[39m
+                      [36m</span>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m\\"MuiTouchRipple-root\\"[39m
+                      [36m/>[39m
+                    [36m</button>[39m
+                  [36m</div>[39m
+                  [36m<fieldset[39m
+                    [33maria-hidden[39m=[32m\\"true\\"[39m
+                    [33mclass[39m=[32m\\"PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline\\"[39m
+                    [33mstyle[39m=[32m\\"padding-left: 8px;\\"[39m
+                  [36m>[39m
+                    [36m<legend[39m
+                      [33mclass[39m=[32m\\"PrivateNotchedOutline-legend-3\\"[39m
+                      [33mstyle[39m=[32m\\"width: 0.01px;\\"[39m
+                    [36m>[39m
+                      [36m<span>[39m
+                        [0m​[0m
+                      [36m</span>[39m
+                    [36m</legend>[39m
+                  [36m</fieldset>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-alignCenter\\"[39m
+            [36m>[39m
+              [0mSelect a location above to see its weather[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m"
+`;

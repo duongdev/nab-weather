@@ -2,14 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Typography, Box, CircularProgress, Grid } from '@material-ui/core'
 import { useQuery } from 'react-query'
-import client from 'helpers/api-client'
+import { fetchLocationWeather } from 'helpers/api-client'
 import WeatherConditionItem from './WeatherConditionItem'
-
-const fetchLocationWeather = async (locationId) => {
-  const { data } = await client.get(`/location/${locationId}/`)
-
-  return data
-}
 
 const WeatherConditions = (props) => {
   const { locationId } = props

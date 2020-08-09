@@ -6,7 +6,10 @@ const WeatherConditionItem = (props) => {
   const classes = useStyles(props)
   const { data } = props
   return (
-    <Paper className={classes.root}>
+    <Paper
+      data-testid={`WeatherConditionItem-${data.id}`}
+      className={classes.root}
+    >
       <Grid
         container
         spacing={1}

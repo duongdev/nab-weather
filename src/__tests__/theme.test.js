@@ -1,4 +1,4 @@
-const { default: theme } = require('theme')
+import theme from 'theme'
 
 describe('Test theme', () => {
   it(`should match snapshot`, () => {

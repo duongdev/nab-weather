@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherConditions /> displays an error message if the data is invalid 1`] = `
+"[36m<body>[39m
+  [36m<div>[39m
+    [36m<p[39m
+      [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-alignCenter\\"[39m
+    [36m>[39m
+      [0mUnable to load weather for this location. Please try again.[0m
+    [36m</p>[39m
+  [36m</div>[39m
+[36m</body>[39m"
+`;
+
+exports[`<WeatherConditions /> loading state should be rendered correctly 1`] = `"<div class=\\"MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate\\" style=\\"width: 40px; height: 40px;\\" role=\\"progressbar\\"><svg class=\\"MuiCircularProgress-svg\\" viewBox=\\"22 22 44 44\\"><circle class=\\"MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate\\" cx=\\"44\\" cy=\\"44\\" r=\\"20.2\\" fill=\\"none\\" stroke-width=\\"3.6\\"></circle></svg></div>"`;
+
+exports[`<WeatherConditions /> should match snapshot with valid data 1`] = `
+"[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2\\"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12\\"[39m
+      [36m>[39m
+        [36m<h5[39m
+          [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-h5\\"[39m
+        [36m>[39m
+          [0mHo Chi Minh City[0m
+        [36m</h5>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-true\\"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m\\"MuiPaper-root makeStyles-root-3 MuiPaper-elevation1 MuiPaper-rounded\\"[39m
+          [33mdata-testid[39m=[32m\\"WeatherConditionItem-5268913807949824\\"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap MuiGrid-align-items-xs-center\\"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorPrimary\\"[39m
+              [36m>[39m
+                [0mSun 09 Aug[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<img[39m
+                [33malt[39m=[32m\\"Heavy Rain\\"[39m
+                [33mclass[39m=[32m\\"makeStyles-stateImg-4\\"[39m
+                [33msrc[39m=[32m\\"https://www.metaweather.com/static/img/weather/hr.svg\\"[39m
+              [36m/>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mHeavy Rain[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMin:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m25[0m
+                [36m</span>[39m
+              [36m</p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMax:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m29[0m
+                [36m</span>[39m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-true\\"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m\\"MuiPaper-root makeStyles-root-3 MuiPaper-elevation1 MuiPaper-rounded\\"[39m
+          [33mdata-testid[39m=[32m\\"WeatherConditionItem-5850985559752704\\"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap MuiGrid-align-items-xs-center\\"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorPrimary\\"[39m
+              [36m>[39m
+                [0mMon 10 Aug[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<img[39m
+                [33malt[39m=[32m\\"Heavy Rain\\"[39m
+                [33mclass[39m=[32m\\"makeStyles-stateImg-4\\"[39m
+                [33msrc[39m=[32m\\"https://www.metaweather.com/static/img/weather/hr.svg\\"[39m
+              [36m/>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mHeavy Rain[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMin:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m25[0m
+                [36m</span>[39m
+              [36m</p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMax:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m31[0m
+                [36m</span>[39m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-true\\"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m\\"MuiPaper-root makeStyles-root-3 MuiPaper-elevation1 MuiPaper-rounded\\"[39m
+          [33mdata-testid[39m=[32m\\"WeatherConditionItem-6698904378671104\\"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap MuiGrid-align-items-xs-center\\"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorPrimary\\"[39m
+              [36m>[39m
+                [0mTue 11 Aug[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<img[39m
+                [33malt[39m=[32m\\"Heavy Rain\\"[39m
+                [33mclass[39m=[32m\\"makeStyles-stateImg-4\\"[39m
+                [33msrc[39m=[32m\\"https://www.metaweather.com/static/img/weather/hr.svg\\"[39m
+              [36m/>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mHeavy Rain[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMin:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m25[0m
+                [36m</span>[39m
+              [36m</p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMax:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m31[0m
+                [36m</span>[39m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-true\\"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m\\"MuiPaper-root makeStyles-root-3 MuiPaper-elevation1 MuiPaper-rounded\\"[39m
+          [33mdata-testid[39m=[32m\\"WeatherConditionItem-6596074540105728\\"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap MuiGrid-align-items-xs-center\\"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorPrimary\\"[39m
+              [36m>[39m
+                [0mWed 12 Aug[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<img[39m
+                [33malt[39m=[32m\\"Heavy Rain\\"[39m
+                [33mclass[39m=[32m\\"makeStyles-stateImg-4\\"[39m
+                [33msrc[39m=[32m\\"https://www.metaweather.com/static/img/weather/hr.svg\\"[39m
+              [36m/>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mHeavy Rain[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMin:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m25[0m
+                [36m</span>[39m
+              [36m</p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMax:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m32[0m
+                [36m</span>[39m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-true\\"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m\\"MuiPaper-root makeStyles-root-3 MuiPaper-elevation1 MuiPaper-rounded\\"[39m
+          [33mdata-testid[39m=[32m\\"WeatherConditionItem-4780906168451072\\"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap MuiGrid-align-items-xs-center\\"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorPrimary\\"[39m
+              [36m>[39m
+                [0mThu 13 Aug[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<img[39m
+                [33malt[39m=[32m\\"Heavy Rain\\"[39m
+                [33mclass[39m=[32m\\"makeStyles-stateImg-4\\"[39m
+                [33msrc[39m=[32m\\"https://www.metaweather.com/static/img/weather/hr.svg\\"[39m
+              [36m/>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mHeavy Rain[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m\\"MuiGrid-root MuiGrid-item\\"[39m
+            [36m>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMin:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m25[0m
+                [36m</span>[39m
+              [36m</p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary\\"[39m
+              [36m>[39m
+                [0mMax:[0m
+                [0m [0m
+                [36m<span[39m
+                  [33mclass[39m=[32m\\"MuiTypography-root MuiTypography-button MuiTypography-colorTextPrimary\\"[39m
+                [36m>[39m
+                  [0m31[0m
+                [36m</span>[39m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m"
+`;

@@ -18,4 +18,10 @@ export const fetchLocations = async (searchText = '') => {
   return data
 }
 
+export const fetchLocationWeather = async (locationId) => {
+  const { data } = await client.get(`/location/${locationId}/`)
+
+  return data
+}
+
 export default client

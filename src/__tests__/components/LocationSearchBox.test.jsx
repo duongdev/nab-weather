@@ -1,6 +1,6 @@
 import React from 'react'
 import { render, screen, waitFor, fireEvent } from '@testing-library/react'
-import LocationSearchBox from './LocationSearchBox'
+import LocationSearchBox from 'components/LocationSearchBox'
 import * as api from 'helpers/api-client'
 
 describe('<LocationSearchBox />', () => {
