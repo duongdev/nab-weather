@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NAB Weather
 
-## Available Scripts
+![screenshot](https://github.com/duongdev/nab-weather/blob/master/screenshot.png)
 
-In the project directory, you can run:
+**_Note_**: _This project is for demo purpose, which means it's not yet ready for production._
 
-### `yarn start`
+Weather forecast website using [create-react-app](https://create-react-app.dev/) and [material-ui](https://material-ui.com/). API powered by [metaweather.com](https://www.metaweather.com/api).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [x] Search for locations with autocomplete.
 
-### `yarn test`
+- [x] View weather forecast by 5 days.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] API query caching by using [react-query](https://react-query.tanstack.com/).
 
-### `yarn build`
+## Demo
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+See the [public demo](https://nab-weather.netlify.app/) of the NAB Weather!
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes
 
-### `yarn eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js 8.0+
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Clone the repository:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+git clone https://github.com/duongdev/nab-weather.git
+```
 
-## Learn More
+Enter the project directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd nab-weather
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install NPM dependencies:
 
-### Code Splitting
+```bash
+yarn install
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Run the development servers:
 
-### Analyzing the Bundle Size
+```bash
+yarn start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Run unit tests
 
-### Making a Progressive Web App
+```bash
+yarn test
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Go to http://localhost:3000 to access the website.
 
-### Advanced Configuration
+### Production
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Build the web:
 
-### Deployment
+```bash
+yarn build
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Start the production servers:
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```bash
+yarn global add serve
+serve -s build
+```
