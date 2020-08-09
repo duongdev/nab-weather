@@ -2,13 +2,19 @@
   "name": "nab-weather",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://www.metaweather.com/api",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "4.0.0-alpha.56",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "evergreen-ui": "^5.0.3",
+    "autosuggest-highlight": "^3.1.1",
+    "axios": "^0.19.2",
+    "lodash": "^4.17.19",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-query": "^2.5.13",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -33,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@targeek/prettierrc": "^1.0.0"
+    "@targeek/prettierrc": "^1.0.0",
+    "@types/jest": "26.0.9"
   }
 }
