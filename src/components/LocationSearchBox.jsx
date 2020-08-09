@@ -1,23 +1,23 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { Autocomplete } from '@material-ui/lab'
 import { TextField } from '@material-ui/core'
 import { useQuery } from 'react-query'
-import axios from 'axios'
 import parse from 'autosuggest-highlight/parse'
 import match from 'autosuggest-highlight/match'
+import client from 'helpers/api-client'
 
 const fetchLocations = async (searchText = '') => {
   if (!searchText) {
     return []
   }
-  const { data } = await axios.get(`/location/search/`, {
+  const { data } = await client.get(`/location/search/`, {
     params: { query: searchText },
   })
 
   return data
 }
 
-const LocationSearchBox = () => {
+const LocationSearchBox = (props) => {
   const [inputValue, setInputValue] = useState('')
   const [value, setValue] = useState(null)
   const [options, setOptions] = useState([])
@@ -28,6 +28,15 @@ const LocationSearchBox = () => {
       // initialData: [],
       enabled: inputValue,
     },
+  )
+
+  const handleChangeLocation = useCallback(
+    (event, location) => {
+      setValue(location)
+      // eslint-disable-next-line no-unused-expressions
+      props.onChange?.(location)
+    },
+    [props.onChange],
   )
 
   useEffect(() => {
@@ -46,7 +55,7 @@ const LocationSearchBox = () => {
       onInputChange={(event, value) => {
         setInputValue(value)
       }}
-      onChange={(e, option) => setValue(option)}
+      onChange={handleChangeLocation}
       value={value}
       loading={isLoading}
       inputValue={inputValue}

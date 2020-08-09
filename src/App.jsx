@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   ThemeProvider,
   CssBaseline,
@@ -9,8 +9,10 @@ import {
 import LocationSearchBox from 'components/LocationSearchBox'
 import theme from 'theme'
 import { ReactQueryCacheProvider } from 'react-query'
+import WeatherConditions from 'components/WeatherConditions'
 
 function App() {
+  const [location, setLocation] = useState(null)
   return (
     <ReactQueryCacheProvider>
       <ThemeProvider theme={theme}>
@@ -19,7 +21,10 @@ function App() {
           <Box paddingY={4}>
             <Grid container spacing={4} direction="column" wrap="nowrap">
               <Grid item>
-                <LocationSearchBox />
+                <LocationSearchBox onChange={setLocation} />
+              </Grid>
+              <Grid item>
+                <WeatherConditions locationId={location?.woeid} />
               </Grid>
             </Grid>
           </Box>
