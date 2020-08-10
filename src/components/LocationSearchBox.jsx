@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
+import PropTypes from 'prop-types'
 import { Autocomplete } from '@material-ui/lab'
 import { TextField } from '@material-ui/core'
 import { useQuery } from 'react-query'
@@ -79,6 +80,10 @@ const LocationSearchBox = (props) => {
       }}
     />
   )
+}
+
+LocationSearchBox.propTypes = {
+  onChange: PropTypes.func,
 }
 
 export default LocationSearchBox

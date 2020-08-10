@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Paper, Grid, Typography, makeStyles } from '@material-ui/core'
 import { format } from 'date-fns'
 
@@ -60,5 +61,16 @@ const useStyles = makeStyles(({ spacing }) => ({
     maxWidth: '100%',
   },
 }))
+
+WeatherConditionItem.propTypes = {
+  data: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    min_temp: PropTypes.number.isRequired,
+    max_temp: PropTypes.number.isRequired,
+    applicable_date: PropTypes.string.isRequired,
+    weather_state_name: PropTypes.string.isRequired,
+    weather_state_abbr: PropTypes.string.isRequired,
+  }).isRequired,
+}
 
 export default WeatherConditionItem
